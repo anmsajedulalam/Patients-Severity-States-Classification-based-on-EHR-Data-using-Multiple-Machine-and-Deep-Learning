@@ -1,0 +1,4 @@
+Model,,Accuracy,Standard Deviation,Gains,Total Time,"Training Time (1,000 Rows)","Scoring Time (1,000 Rows)"
+Generalized Linear Model,0.69,0.692308175,0.017186411,232,18002,13.59927471,72.52124646
+Fast Large Margin,0.72,0.717460317,0.02216546,316,21639,102.9011786,58.92351275
+Deep Learning,0.75,0.748610327,0.010767215,382,34978,611.287398,108.2152975
