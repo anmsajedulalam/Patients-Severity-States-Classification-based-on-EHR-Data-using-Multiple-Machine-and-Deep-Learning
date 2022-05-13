@@ -30,6 +30,11 @@ Mixture Model, Hierarchical Clustering and Principal Component Analysis are bein
 results demonstrate that supervised learning outperforms unsupervised learning on the dataset for the expected
 outcomes.
 
+## First attempt future work:
+
+As this work shows performance analysis based on unsupervised and supervised classification techniques, in the future, we will apply regression techniques on these datasets to see how it performs. Also, we will try to improve the classification techniques by doing feature selection and feature engineering. Through our work, we have come across a point where the Gaussian Mixture model works more limited after dimension reduction, which we want to work on later. This future task will include the improvement of the BIC score and the log-likelihood score of the Gaussian Mixture Model. For dimension reduction, we have relied on feature extraction approaches. Other dimension reduction techniques, such as Matrix Factorization, Manifold Learning, and Autoencoder Methods, can be used for this task. Furthermore, similar studies may be performed on various EHR datasets or any COVID19 pandemic related EHR datasets to see how these algorithms perform on various datasets.
+
+
 ## First attempt conclusion:
 
 In this paper, a performance analysis of predicting the patient severity scores has been proposed and successfully implemented by applying supervised and unsupervised machine learning techniques upon an EHR dataset. This analysis is planned and executed with consideration of blood test report data such as the patient’s amount of Hematocrit, Hemoglobin, Erythrocyte, Thrombocytes and all the other measurements of different cells in blood. Our proposed approach can assess and forecast the severity of patients in cases when there is a shortage of medical beds in pandemics and we can’t provide all of the patients beds in the hospital, so we have to make quick decisions about who needs a medical bed and who doesn’t. In this instance, instead of human brain decisions, this strategy can make things faster as an automated procedure. Patients with less severe conditions can simply be alerted about their health status and taken home; on the other hand, when patients are at high risk, their families can take required steps to improve the paient’s position. As a result of our research, we discovered that supervised classification algorithms outperformed unsupervised algorithms in predicting patient severity score.
@@ -59,6 +64,30 @@ for semi-supervised learning. The Fast Large Margin performed really well with
 a recall score of 84% and an F1 score of 78%. Finally, the Multi-layer
 Feed-forward Neural Network performed admirably with 75% accuracy, 75%
 precision, 87% recall, 81% F1 score.
+
+## Second attempt limitations & future Work:
+
+In the future, we will try to collect more real-time datasets from other hospitals so that
+the models can be trained better to predict the categorization of illness severity states
+of patients. As a limitation of this research, we can include that we just worked on one
+dataset from one private medical company from Indonesia, which we can not rely on
+in case of providing automated medical services to patients as it can be risky.
+Although if we can manage more data from several medicals the data range should be
+larger. In this dataset we have 4, 412 patients’ data, in the future we are planning to
+work with more than 10, 000 patients’ data to come up with better outputs. Another
+limitation of this research work was we only used one method for implementing the
+semi-supervised machine learning technique and one method for implementing the
+deep learning technique. For future research, we want to use several deep learning and
+semi-supervised techniques. Additionally, we only trained our models, but could not
+deploy them into our IoMT devices successfully, though we tried to, as we had a
+shortage of time, we decided to deploy our custom models of classification illness
+severity in the future. Furthermore, the dataset should have more variety, as it was
+collected from another research work from Indonesian researchers [6], the dataset was
+from a private hospital and from a specific country if data can be collected from
+different countries and different types of clinics such as government, private, military
+clinics, this research would be more impactful. Because then the dataset will have
+more varieties of patients who belong to different classes of society. It would be more
+realistic research then.
 
 ## Second attempt conclusion:
 
