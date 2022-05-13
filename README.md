@@ -6,7 +6,7 @@ Patients’ Severity States Classification based on Electronic Health Record (EH
 
 ## Submitted into: 
 
-Firstly was submitted into ICPRAM 2022 (https://icpram.scitevents.org/), Second attempt was into ICACDS 2022 (https://www.icacds.com/), both were rejected.
+First attempt was into ICPRAM 2022 (https://icpram.scitevents.org/), Second attempt was into ICACDS 2022 (https://www.icacds.com/), both were rejected.
 
 
 ## Authors:
