@@ -100,4 +100,6 @@ learning techniques, and from these new model experiments we got new insights
 which we have explained in detail already
 
 
-Organization: Brac University, School of Data & Sciences, Deparment of Computer Science and Engineering.
+## Organization:
+
+Brac University, School of Data & Sciences, Deparment of Computer Science and Engineering.
